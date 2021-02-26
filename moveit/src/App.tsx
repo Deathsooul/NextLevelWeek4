@@ -1,6 +1,12 @@
+import { ExperienceBar } from './components/ExperienceBar'
+import './styles/global.css'
+import './components/ExperienceBar'
+
 function App() {
   return (
-    <h1>Salve putada</h1>
+    <div>
+      <ExperienceBar/>
+    </div>
   );
 }
 
